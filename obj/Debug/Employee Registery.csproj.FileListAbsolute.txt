@@ -1,0 +1,10 @@
+D:\Projects\Employee Registery\bin\Debug\Employee Registery.exe.config
+D:\Projects\Employee Registery\bin\Debug\Employee Registery.exe
+D:\Projects\Employee Registery\bin\Debug\Employee Registery.pdb
+D:\Projects\Employee Registery\obj\Debug\Employee Registery.csprojAssemblyReference.cache
+D:\Projects\Employee Registery\obj\Debug\Employee_Registery.formApp.resources
+D:\Projects\Employee Registery\obj\Debug\Employee_Registery.Properties.Resources.resources
+D:\Projects\Employee Registery\obj\Debug\Employee Registery.csproj.GenerateResource.cache
+D:\Projects\Employee Registery\obj\Debug\Employee Registery.csproj.CoreCompileInputs.cache
+D:\Projects\Employee Registery\obj\Debug\Employee Registery.exe
+D:\Projects\Employee Registery\obj\Debug\Employee Registery.pdb
