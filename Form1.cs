@@ -87,7 +87,7 @@ namespace Employee_Registery
         {
             if(saleRegisterValid())
             {
-                Seller seller = new Seller(tbxSellerName.Text, double.Parse(tbxSellerCommission.Text), double.Parse(tbxSellerSales.Text));
+                Employee seller = new Seller(tbxSellerName.Text, double.Parse(tbxSellerCommission.Text), double.Parse(tbxSellerSales.Text));
                 employees.Add(seller);
                 updateRegistery();
                 updateSalaries();
@@ -106,7 +106,7 @@ namespace Employee_Registery
         {
             if(shiftRegisterValid())
             {
-                Consultant consultant = new Consultant(tbxConsultantName.Text, double.Parse(tbxConsultantRate.Text), double.Parse(tbxConsultantHours.Text));
+                Employee consultant = new Consultant(tbxConsultantName.Text, double.Parse(tbxConsultantRate.Text), double.Parse(tbxConsultantHours.Text));
                 employees.Add(consultant);
                 updateRegistery();
                 updateSalaries();
@@ -125,7 +125,7 @@ namespace Employee_Registery
         {
             if(salaryRegisterValid())
             {
-                Clerk clerk = new Clerk(tbxClerkName.Text, double.Parse(tbxClerkSalary.Text));
+                Employee clerk = new Clerk(tbxClerkName.Text, double.Parse(tbxClerkSalary.Text));
                 employees.Add(clerk);
                 updateRegistery();
                 updateSalaries();
