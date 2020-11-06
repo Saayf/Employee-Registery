@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Employee_Registery
 {
-    abstract class Employee
+    class Employee
     {
 
         string name;
@@ -16,7 +16,10 @@ namespace Employee_Registery
             name = this.name;
         }
 
-        public abstract double calculateSalary();
+        public virtual double calculateSalary()
+        {
+            return 0;   
+        }
 
     }
 }
